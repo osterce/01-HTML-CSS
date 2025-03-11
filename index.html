@@ -1,0 +1,124 @@
+<!doctype html> <!-- Define el tipo de documento como HTML5 -->
+<html lang="en"> <!-- Inicia el documento HTML y establece el idioma como inglés -->
+  <head> <!-- Abre la sección de metadatos del documento (cabeza del HTML) -->
+    <meta charset="utf-8"> <!-- Establece la codificación de caracteres como UTF-8 para admitir caracteres especiales -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Asegura que el documento se renderice con la versión más reciente de IE (Internet Explorer) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Define la configuración de la vista para dispositivos móviles -->
+    <title>David Chu's China Bistro</title> <!-- Establece el título de la página que aparece en la pestaña del navegador -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"> <!-- Enlaza el archivo CSS de Bootstrap para diseño y estilos responsivos -->
+    <link rel="stylesheet" href="css/styles.css"> <!-- Enlaza un archivo CSS personalizado con estilos adicionales -->
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'> <!-- Enlaza una fuente de Google llamada Oxygen -->
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'> <!-- Enlaza una fuente de Google llamada Lora -->
+  </head> <!-- Cierra la sección <head> -->
+<body><!-- Inicia el cuerpo de la página web -->
+  <header><!-- Abre la sección del encabezado -->
+    <nav id="header-nav" class="navbar navbar-default"><!-- Inicia una barra de navegación con el ID 'header-nav' y la clase 'navbar-default' de Bootstrap -->
+      <div class="container"><!-- Inicia un contenedor que centra el contenido dentro de la barra de navegación -->
+        <div class="navbar-header"><!-- Define el contenedor para los elementos de la barra de navegación, como el logo y los enlaces -->
+          <a href="index.html" class="pull-left visible-md visible-lg"><!-- Enlace a la página principal con una clase que lo hace visible solo en pantallas medianas y grandes -->
+            <div id="logo-img"></div><!-- Contenedor para el logo de la página-->
+          </a>
+
+          <div class="navbar-brand"> <!-- Contenedor para el nombre de la marca -->
+            <a href="index.html"><h1>David Chu's China Bistro</h1></a><!-- Enlace al inicio con el nombre del restaurante como título -->
+            <p>
+              <img src="images/star-k-logo.png" alt="Kosher certification"><!-- Imagen del logo de certificación kosher -->
+              <span>Kosher Certified</span><!-- Texto que indica que el restaurante está certificado como kosher -->
+            </p>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false"><!-- Botón para activar el menú en dispositivos pequeños, con clases para el diseño colapsable -->
+            <span class="sr-only">Toggle navigation</span><!-- Texto oculto para accesibilidad que indica la función del botón -->
+            <span class="icon-bar"></span><!-- Icono de la barra (tres líneas horizontales) que representa el menú colapsable -->
+            <span class="icon-bar"></span><!-- Icono de la barra (segunda línea) -->
+            <span class="icon-bar"></span><!-- Icono de la barra (tercera línea) -->
+          </button><!-- Cierra el botón del menú colapsable -->
+        </div><!-- Cierra el contenedor de la cabecera de la barra de navegación -->
+
+        <div id="collapsable-nav" class="collapse navbar-collapse"> <!-- Contenedor del menú de navegación colapsable, que se oculta en pantallas pequeñas y se expande en pantallas grandes -->
+           <ul id="nav-list" class="nav navbar-nav navbar-right"><!-- Lista de elementos de navegación, alineados a la derecha -->
+            <li><!-- Elemento de lista para el primer enlace del menú -->
+              <a href="menu-categories.html"><!-- Enlace que lleva a la página de categorías del menú -->
+                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a><!-- Icono de cubiertos usando glyphicon, salto de línea que solo se muestra en pantallas grandes (oculto en pantallas pequeñas), texto parece junto al icono en pantallas grandes  -->
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a><!-- Icono de informacion usando glyphicon, salto de línea que solo se muestra en pantallas grandes (oculto en pantallas pequeñas), texto parece junto al icono en pantallas grandes  -->
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a><!-- Icono de premios usando glyphicon, salto de línea que solo se muestra en pantallas grandes (oculto en pantallas pequeñas), texto parece junto al icono en pantallas grandes  -->
+            </li>
+            <li id="phone" class="hidden-xs"> <!-- Elemento de lista para mostrar el número de teléfono, visible solo en pantallas grandes -->
+              <a href="tel:410-602-5008"> <!-- Enlace para hacer una llamada telefónica al número proporcionado -->
+                <span>410-602-5008</span></a><div>* We Deliver</div> <!-- Muestra el número de teléfono y texto adicional que indica que el restaurante ofrece servicio de entrega -->
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+  <div id="call-btn" class="visible-xs"> <!-- Contenedor para el botón de llamada, visible solo en pantallas extra pequeñas (smartphones) -->
+    <a class="btn" href="tel:410-602-5008"><!-- Enlace que permite hacer una llamada telefónica al número especificado -->
+    <span class="glyphicon glyphicon-earphone"></span><!-- Icono de teléfono utilizando glyphicon -->
+    410-602-5008
+    </a>
+  </div><!-- Cierra el contenedor del botón de llamada -->
+  <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div><!-- Contenedor para el texto "* We Deliver", visible solo en pantallas extra pequeñas (smartphones) y centrado -->
+
+  <div id="main-content" class="container"><!-- Contenedor principal para el contenido de la página, con clase 'container' de Bootstrap para centrado y espaciado adecuado -->
+    <div class="jumbotron"><!-- Sección destacada (jumbotron), comúnmente usada para introducir contenido destacado o imágenes -->
+      <img src="images/jumbotron_768.jpg" alt="Picture of restaurant" class="img-responsive visible-xs"><!-- Imagen responsive (se ajusta al tamaño de la pantalla), visible solo en pantallas extra pequeñas (smartphones) -->
+    </div>
+
+    <div id="home-tiles" class="row"><!-- Contenedor con una fila (row) que contiene tres "tiles" o bloques -->
+      <div class="col-md-4 col-sm-6 col-xs-12"><!-- Columna que ocupa 4 partes en pantallas grandes, 6 en pantallas medianas y ocupa toda la fila en pantallas pequeñas -->
+        <a href="menu-categories.html"><div id="menu-tile"><span>menu</span></div></a><!-- Enlace a la página de categorías del menú -->
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12"><!-- Columna similar a la anterior, para el tile de "specials" -->
+        <a href="single-category.html"><div id="specials-tile"><span>specials</span></div></a><!-- Enlace a la página de una categoría específica -->
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12"><!-- Columna para el tile del mapa, que ocupa 4 partes en pantallas grandes y toda la fila en pantallas medianas y pequeñas -->
+        <a href="https://www.google.com/maps/place/David+Chu's+China+Bistro/@39.3635874,-76.7138622,17z/data=!4m6!1m3!3m2!1s0x89c81a14e7817803:0xab20a0e99daa17ea!2sDavid+Chu's+China+Bistro!3m1!1s0x89c81a14e7817803:0xab20a0e99daa17ea" target="_blank"><!-- Enlace al mapa de Google para la ubicación del restaurante -->
+          <div id="map-tile"><!-- Contenedor del "tile" para el mapa -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3084.675372390488!2d-76.71386218529199!3d39.3635874269356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c81a14e7817803%3A0xab20a0e99daa17ea!2sDavid+Chu&#39;s+China+Bistro!5e0!3m2!1sen!2sus!4v1452824864156" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe><!-- Incrusta un mapa de Google mostrando la ubicación del restaurante -->
+            <span>map</span><!-- Texto dentro del tile que dice "map" -->
+          </div>
+        </a>
+      </div>
+    </div><!-- End of #home-tiles -->
+  </div><!-- End of #main-content -->
+
+  <footer class="panel-footer"> <!-- Comienza el pie de página con la clase 'panel-footer' para el estilo -->
+    <div class="container"><!-- Contenedor para alinear y espaciar el contenido dentro del pie de página -->
+      <div class="row"><!-- Inicia una fila para organizar las secciones dentro del pie de página -->
+        <section id="hours" class="col-sm-4"><!-- Sección para el horario de apertura, ocupando 4 columnas en pantallas medianas -->
+          <span>Hours:</span><br><!-- Texto que indica "Hours:" seguido de un salto de línea -->
+          Sun-Thurs: 11:15am - 10:00pm<br>
+          Fri: 11:15am - 2:30pm<br>
+          Saturday Closed
+          <hr class="visible-xs"><!-- Línea horizontal que solo se muestra en pantallas pequeñas -->
+        </section>
+        <section id="address" class="col-sm-4"><!-- Sección para la dirección, ocupando 4 columnas en pantallas medianas -->
+          <span>Address:</span><br><!-- Texto que indica "Address:" seguido de un salto de línea -->
+          7105 Reisterstown Road<br>
+          Baltimore, MD 21215
+          <p>* Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries.</p>
+          <hr class="visible-xs"><!-- Línea horizontal que solo se muestra en pantallas pequeñas -->
+        </section>
+        <section id="testimonials" class="col-sm-4"><!-- Sección para los testimonios de los clientes, ocupando 4 columnas en pantallas medianas -->
+          <p>"The best Chinese restaurant I've been to! And that's saying a lot, since I've been to many!"</p>
+          <p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; Copyright David Chu's China Bistro 2016</div><!-- Texto de copyright centrado -->
+    </div>
+  </footer><!-- Cierra el pie de página -->
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script><!-- Incluye la librería jQuery (versión 2.1.4), necesaria para manipular el DOM y manejar eventos de manera eficiente -->
+  <script src="js/bootstrap.min.js"></script><!-- Incluye el archivo JavaScript de Bootstrap, que proporciona interactividad como el menú colapsable, modales, etc. -->
+  <script src="js/script.js"></script><!-- Incluye el archivo 'script.js', donde probablemente se encuentren scripts personalizados para la página -->
+</body><!-- Cierra la etiqueta del cuerpo del documento -->
+</html><!-- Cierra el documento HTML -->

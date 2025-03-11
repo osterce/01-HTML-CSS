@@ -1,0 +1,288 @@
+/* HEADER */
+#header-nav {
+  background-color: #f6b319; /* Establece un color de fondo*/
+  border-radius: 0; /* Elimina cualquier redondeo de bordes */
+  border: 0; /* Elimina el borde */
+}
+
+#logo-img {
+  background: url('../images/restaurant-logo_large.png') no-repeat; /* Agrega una imagen de fondo sin repetición */
+  width: 150px; /* Define el ancho del logo */
+  height: 150px; /* Define la altura del logo */
+  margin: 10px 15px 10px 0; /* Establece márgenes */
+}
+
+.navbar-brand {
+  padding-top: 25px; /* Añade espacio arriba del logo */
+}
+
+.navbar-brand h1 {
+  font-family: 'Lora', serif; /* Usa la fuente Lora o serif en el caso de no tenerla instalada el usuario */
+  color: #557c3e; /* Color de letra */
+  font-size: 1.5em; /* Tamaño de fuente*/
+  text-transform: uppercase; /* Convierte el texto en mayúsculas */
+  font-weight: bold; /* Convierte el texto en negrita */
+  text-shadow: 1px 1px 1px #222; /* Sombra en el texto */
+  margin-top: 0; /* Elimina margen superior */
+  margin-bottom: 0; /* Elimina margen inferior */
+  line-height: 0.75; /* Ajusta la altura de línea */
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none; /* Elimina el subrayado en hover y focus de los enlaces */
+}
+
+.navbar-brand p {
+  color: #000; /* Color de letra */
+  text-transform: uppercase; /* Convierte el texto en mayúsculas */
+  font-size: 0.7em; /* Reduce el tamaño del texto */
+  margin-top: 15px; /* Espaciado superior */
+}
+
+.navbar-brand p span {
+  vertical-align: middle; /* Alinea verticalmente el contenido dentro del span */
+}
+
+#nav-list {
+  margin-top: 10px; /* Espaciado superior para la lista de navegación */
+}
+
+#nav-list a {
+  color: #951C49; /* Color de letra */
+  text-align: center; /* Alinea el texto al centro */
+}
+
+#nav-list a:hover {
+  background: #E7E7E7; /* Cambia el fondo al pasar el cursor */
+}
+
+#nav-list a span {
+  font-size: 1.8em; /* Aumenta el tamaño del texto dentro de span */
+}
+
+#phone {
+  margin-top: 5px; /* Espaciado superior */
+}
+
+#phone a {
+  text-align: right; /* Alinea el número de teléfono a la derecha */
+  padding-bottom: 0; /* Elimina el padding inferior */
+}
+
+#phone div {
+  color: #557c3e; /* Color de letra */
+  text-align: right; /* Alinea el texto a la derecha */
+  padding-right: 15px; /* Añade padding a la derecha */
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f; /* Añade un borde a los botones de la navbar de color vino*/
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both; /* Asegura que el botón no flote a los lados */
+  margin-top: -30px; /* Mueve el botón hacia arriba */
+}
+
+/* HOME PAGE */
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F; /* Agrega sombra oscura */
+  border: 2px solid #3F0C1F; /* Añade un borde color vino de 2px */
+}
+
+#menu-tile, #specials-tile, #map-tile {
+  height: 250px; /* Altura de los mosaicos */
+  width: 100%; /* Ocupar todo el ancho disponible */
+  margin-bottom: 15px; /* Espaciado inferior */
+  position: relative; /* Posiciona los elementos relativos a su contenedor */
+  border: 2px solid #3F0C1F; /* Añade un borde color vino de 2px */
+  overflow: hidden; /* Oculta cualquier contenido que sobresalga */
+}
+
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc; /* Añade sombra al pasar el cursor */
+}
+
+#menu-tile {
+  background: url('../images/menu-tile.jpg') no-repeat center; /* Añade una imagen de fondo, la centrea y no la repite */
+}
+
+#specials-tile {
+  background: url('../images/specials-tile.jpg') no-repeat center; /* Añade una imagen de fondo, la centrea y no la repite */
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+  position: absolute; /* Posición absoluta dentro del mosaico */
+  bottom: 0; /* Alineado en la parte inferior */
+  right: 0; /* Alineado a la derecha */
+  width: 100%; /* Ocupar todo el ancho disponible */
+  text-align: center; /* Centrar texto */
+  font-size: 1.6em; /* Tamaño del texto */
+  text-transform: uppercase; /* Convertir texto en mayúsculas */
+  background-color: #000; /* Fondo color negro */
+  color: #fff; /* Texto color blanco */
+  opacity: 0.8; /* Opacidad del 0,8% */
+}
+/* END HOME PAGE */
+/* Footer */
+.panel-footer section {
+  margin-bottom: 30px;/* Aplica un margen inferior de 30px a cada sección dentro del footer*/
+  text-align: center;/* Centra el texto */
+}
+.panel-footer section:nth-child(3) {
+  margin-bottom: 0; /* Elimina el margen inferior de la tercera sección dentro del footer */
+}
+.panel-footer section hr {
+  width: 50%; /* Define el ancho de la línea horizontal dentro de las secciones del footer al 50% */
+}
+.panel-footer {
+  margin-top: 30px; /* Agrega un margen superior de 30px */
+  padding-top: 35px; /* Espaciado interno en la parte superior */
+  padding-bottom: 30px; /* Espaciado interno en la parte inferior */
+  background-color: #222; /* Fondo oscuro para el footer */
+  border-top: 0; /* Elimina cualquier borde superior */
+  color: #9e9c9c; /* Color del texto gris claro */
+}
+.panel-footer div.row {
+  margin-bottom: 35px; /* Agrega un margen inferior de 35px a las filas dentro del footer */
+}
+#hours, #address {
+  line-height: 2; /* Aplica una altura de línea de 2 a los elementos*/
+}
+#hours > span, #address > span {
+  font-size: 1.3em; /* Aumenta el tamaño del texto dentro de los elementos <span>*/
+}
+#address p {
+  color: #557c3e; /* Establece un color verde oscuro para el texto dentro de #address */
+  font-size: .8em; /* Reduce el tamaño del texto a 80% del tamaño base */
+  line-height: 1.8; /* Define la altura de línea en 1.8 para mejorar la legibilidad */
+}
+
+#testimonials {
+  font-style: italic; /* Aplica estilo de letra en cursiva al texto dentro de #testimonials */
+}
+
+#testimonials p:nth-child(2) {
+  margin-top: 25px; /* Agrega un margen superior de 25px al segundo párrafo dentro de #testimonials */
+}
+/* End Footer */
+
+/* ********** Large devices only ********** */
+@media (min-width: 1200px) { /* Aplica estilos solo a dispositivos con un ancho mínimo de 1200px */
+  .container .jumbotron {
+    background: url('../images/jumbotron_1200.jpg') no-repeat; /* Establece una imagen de fondo específica para la jumbotron */
+    height: 675px; /* Define la altura del contenedor jumbotron */
+  }
+}
+
+/* ********** Medium devices only ********** */
+@media (min-width: 992px) and (max-width: 1199px) { /* Aplica estilos solo a dispositivos entre 992px y 1199px de ancho */
+  /* Header */
+  #logo-img {
+    background: url('../images/restaurant-logo_medium.png') no-repeat; /* Usa una imagen de logo más pequeña */
+    width: 100px; /* Reduce el ancho del logo */
+    height: 100px; /* Reduce la altura del logo */
+    margin: 5px 5px 5px 0; /* Ajusta los márgenes del logo */
+  }
+  /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/jumbotron_992.jpg') no-repeat; /* Imagen de fondo para dispositivos medianos */
+    height: 558px; /* Ajusta la altura del jumbotron */
+  }
+  /* End Home Page */
+}
+
+/* ********** Small devices only ********** */
+@media (min-width: 768px) and (max-width: 991px) { /* Aplica estilos solo a dispositivos entre 768px y 991px de ancho */
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/jumbotron_768.jpg') no-repeat; /* Imagen de fondo adaptada para pantallas más pequeñas */
+    height: 432px; /* Reduce la altura del jumbotron para pantallas pequeñas */
+  }
+  /* End Home Page */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px; /* Espaciado superior */
+    height: 80px; /* Altura del logotipo */
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px; /*Espaciado superior de 10px*/
+    font-size: 5vw; /* Tamaño de fuente relativo al ancho de la ventana */
+  }
+  .navbar-brand p {
+    font-size: .6em; /*tamaño de fuente*/
+    margin-top: 12px; /*margen superior */
+  }
+  .navbar-brand p img {
+    height: 20px; /*Alto de 20px*/
+  }
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em; /*Tamaño de texto*/
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em; /*Tamaño de texto*/
+    margin-right: 5px; /*Separación al lado derecho*/
+  }
+  #call-btn > a { /* Selecciona el enlace dentro del contenedor con el ID 'call-btn' */
+    font-size: 1.5em; /* Establece el tamaño de fuente en 1.5 veces el tamaño estándar */
+    display: block; /* Hace que el enlace se comporte como un bloque, ocupando toda la línea */
+    margin: 0 20px; /* Aplica un margen de 20px a la izquierda y derecha, y 0 arriba y abajo */
+    padding: 10px; /* Aplica un relleno de 10px en todos los lados del enlace */
+    border: 2px solid #fff; /* Establece un borde blanco de 2px alrededor del enlace */
+    background-color: #f6b319; /* Establece el color de fondo del enlace en un tono amarillo anaranjado */
+    color: #951c49; /* Establece el color del texto en un tono rojo oscuro */
+}
+
+#xs-deliver { /* Selecciona el elemento con el ID 'xs-deliver' */
+    margin-top: 5px; /* Aplica un margen superior de 5px */
+    font-size: .7em; /* Establece el tamaño de la fuente en 0.7 veces el tamaño estándar */
+    letter-spacing: .1em; /* Establece un espaciado entre las letras de 0.1em */
+    text-transform: uppercase; /* Convierte todo el texto a mayúsculas */
+}
+
+  /* End Header */
+  /* Home Page */
+  .container .jumbotron {
+    margin-top: 30px;/* Aplica un margen superior de 30px */
+    padding: 0;/* Elimina cualquier relleno dentro del jumbotron */
+  }
+  #menu-tile, #specials-tile {
+    width: 360px;/* Establece un ancho de 360px para ambos tiles */
+    margin: 0 auto 15px;/* Centra los tiles (margen automático a izquierda y derecha) y aplica un margen inferior de 15px */
+  }
+/* End Home Page */
+}
+/* Footer */
+.panel-footer section {/* Selecciona las secciones dentro del pie de página con la clase 'panel-footer' */
+  margin-bottom: 30px;/* Aplica un margen inferior de 30px en cada sección */
+  text-align: center;/* Centra el texto dentro de cada sección */
+}
+.panel-footer section:nth-child(3) {
+  margin-bottom: 0; /* Elimina el margen inferior para la tercera sección, ya que el margen se aplica a toda la fila */
+}
+.panel-footer section hr {/* Selecciona las líneas horizontales dentro de las secciones del pie de página */
+  width: 50%;/* Establece el ancho de la línea horizontal al 50% del contenedor */
+}
+/* End Footer */
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) { /* Aplica las siguientes reglas solo cuando el ancho de la pantalla sea de 479px o menos (dispositivos móviles pequeños) */
+  /* Header */
+  .navbar-brand h1 { /* Selecciona el título dentro de la clase 'navbar-brand' (nombre del restaurante) */
+    padding-top: 5px; /* Aplica un relleno superior de 5px */
+    font-size: 6vw; /* Establece el tamaño de la fuente en 6% del ancho de la ventana */
+  }
+  /* End Header */
+
+  /* Home page */
+  #menu-tile, #specials-tile { /* Selecciona los elementos con los IDs 'menu-tile' y 'specials-tile' */
+    width: 280px; /* Establece un ancho de 280px para los tiles */
+    margin: 0 auto 15px; /* Centra los tiles (margen automático a izquierda y derecha) y aplica un margen inferior de 15px */
+  }
+  /* End Home page */
+}
